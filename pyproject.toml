@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agrovision-ai"
+version = "0.2.0"
+description = "Klasifikasi kondisi daun dan laboratorium perbandingan model"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.50",
+    "scikit-learn>=1.4",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "Pillow>=10.0",
+    "joblib>=1.3",
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools]
+packages = ["src"]

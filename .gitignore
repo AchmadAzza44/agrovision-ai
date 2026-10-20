@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+artifacts/models/*
+artifacts/experiments/*
+!artifacts/models/.gitkeep
+!artifacts/experiments/.gitkeep
+data/synthetic_leaves/
+.DS_Store
+data/plantvillage_tomato/
